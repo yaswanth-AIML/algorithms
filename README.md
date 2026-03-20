@@ -1,32 +1,35 @@
-# Algorithms Library
+# 🧮 Algorithms & LeetCode Solutions
 
-This repository contains implementations of classic algorithms and data structures in multiple programming languages.  
-The goal is to build a recruiter‑ready collection that demonstrates problem‑solving, coding versatility, and clean design.
-
----
-
-## 📂 Sections
-
-### 1. Sorting (C)
-- **Bubble Sort**
-- **Insertion Sort**
-- **Selection Sort**
-- **Merge Sort**
-- **Quick Sort**
-
-Each algorithm is implemented in C with clear comments and sample input/output.
+A curated collection of **algorithms** and **LeetCode problem solutions** implemented in multiple programming languages.  
+This repository showcases my problem‑solving skills, algorithmic knowledge, and adaptability across languages.
 
 ---
 
-### 2. Linked List (Python)
-- **Insert at End**
-- **Insert at Beginning**
-- **Insert at Position**
-- **Delete at Beginning**
-- **Delete at End**
-- **Delete at Position**
-- **Traverse**
-
-This is an interactive, menu‑driven program that allows users to perform linked list operations step by step.
+## 🚀 Features
+- Solutions in **multiple languages**: Python, Java, C++, and more.
+- Clear separation of **Algorithms** vs **LeetCode problems**.
+- Each file includes:
+  - Problem/algorithm description
+  - Time & space complexity
+  - Example usage
 
 ---
+
+## 📘 Algorithms Covered
+- Searching: Binary Search, Linear Search
+- Sorting: Quick Sort, Merge Sort, Heap Sort
+- Graph Algorithms: BFS, DFS, Dijkstra’s
+- Dynamic Programming: Knapsack, Longest Common Subsequence
+- And many more…
+
+---
+
+## 🎯 LeetCode Problems
+- Best Time to Buy and Sell Stock (121)
+- Maximum Subarray (53)
+- Two Sum (1)
+- Longest Palindromic Substring (5)
+- Merge Intervals (56)
+
+*(More problems continuously added!)*
+
