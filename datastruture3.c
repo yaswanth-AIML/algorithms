@@ -21,10 +21,8 @@ int main()
         if(num==array[i]);
         {
            pos=i;
-           printf("%d",i);
-           
+           printf("%d",i);         
         }
-            
     }
     if(pos==0)
     printf("number not found");
