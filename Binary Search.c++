@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void binary(int arr[],int tar,int size){
+int binary(int arr[],int tar,int size){
     int star=0,end=size-1;
     while(star<=end){
         int mid=(star+end)/2;
@@ -12,17 +12,10 @@ void binary(int arr[],int tar,int size){
         }
         if (tar==arr[mid]){
             return mid;
-            break;
         }
         
     }
-    if (tar==arr[mid]){
-        cout<<"ELEMENT FOUND";
-        cout<<mid;
-    }
-    else{
-    cout<<"NOT FOUND ";
-    }
+    return -1;
 }
 int main(){
     int arr[]={1,2,3,4,5,6,7,8,9};
@@ -30,5 +23,5 @@ int main(){
     int size=sizeof(arr)/sizeof(arr[0]);
     cout<<"Enter The Number to find:";
     cin>>tar;
-    binary(arr,tar,size);
+    cout<<binary(arr,tar,size);
 }
