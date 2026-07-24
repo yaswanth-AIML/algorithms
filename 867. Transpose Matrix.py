@@ -9,4 +9,3 @@ class Solution:
                 row1.append(matrix[j][i]) 
             rel.append(row1)
         return rel
-                
