@@ -19,5 +19,6 @@ def bubble(arr):
         "Algorithm":"Bubble Sort",
         "Sorted Array":arr,
         "Swaps":swaps,
+        "Comparisions":comp,
         "Steps":steps
     }
